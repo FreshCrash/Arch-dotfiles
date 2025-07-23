@@ -1,0 +1,52 @@
+window {
+  margin: 0px;
+  border-radius: 20px;
+  font-family: Adwaita Mono;
+}
+
+#input {
+  border-radius: 20px;
+  margin: 5px;
+  border: none;
+  color: @theme_fg_color;
+}
+
+#inner-box {
+  margin: 5px;
+  border: none;
+  background-color: transparent;
+}
+
+#outer-box {
+  margin: 5px;
+  border: none;
+  background-color: transparent;
+  border-radius: 20px;
+}
+
+#scroll {
+  margin: 0px;
+  border: none;
+  border-radius: 20px;
+}
+
+#text {
+  border-radius: 20px;
+  margin: 5px;
+  border: none;
+  color: @theme_fg_color;
+}
+
+#entry {
+  border-radius: 5px;
+  border: none;
+}
+
+#entry:focus {
+  border: none;
+}
+
+#entry:selected {
+  border-radius: 5px;
+  border: none;
+}
